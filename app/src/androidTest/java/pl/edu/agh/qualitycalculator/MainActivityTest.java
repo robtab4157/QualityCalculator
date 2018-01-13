@@ -49,5 +49,6 @@ public class MainActivityTest {
         onView(withId(R.id.btnDiv)).perform(click());
         onView(withId(R.id.tvResult)).check(matches(withText("4.0 divided by 4.0 gives value 1.0")));
     }
+    // sprawdzamy travisa
 }
 
